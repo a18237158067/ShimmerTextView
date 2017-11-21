@@ -11,6 +11,7 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 public class ShimmerTextView extends TextView {
+	
         private int mViewWidth = 0;
         private TextPaint mPaint;
         private LinearGradient mLinearGradient;
