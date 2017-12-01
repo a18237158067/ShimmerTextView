@@ -17,6 +17,7 @@ public class ShimmerTextView  extends   TextView {
         private LinearGradient mLinearGradient;
         private Matrix mGradientMatrix;
         private int mTranslate = 0;
+        private String a="0";
 		private int color;
 
         public ShimmerTextView(Context context) {
