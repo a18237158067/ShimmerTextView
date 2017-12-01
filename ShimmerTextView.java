@@ -10,13 +10,14 @@ import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-public class ShimmerTextView extends TextView {
+public class ShimmerTextView  extends   TextView {
 	
         private int mViewWidth = 0;
         private TextPaint mPaint;
         private LinearGradient mLinearGradient;
         private Matrix mGradientMatrix;
         private int mTranslate = 0;
+		private int color;
 
         public ShimmerTextView(Context context) {
             this(context,null,0);
